@@ -2,11 +2,9 @@
 
 O aplicativo mostra como é feito um consumo de uma API utilizando o webservice gratuito da ViaCEP.
 
-<div style="display: flex;">
-<center>
+<div style="display: flex;" align="center">
   <img src="images/img_1.png" alt="Imagem 1" style="width: 35%;">
   <img src="images/img_2.png" alt="Imagem 2" style="width: 35%;">
-</center>
 </div>
 
 
