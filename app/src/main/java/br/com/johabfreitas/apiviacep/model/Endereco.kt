@@ -1,6 +1,7 @@
 package br.com.johabfreitas.apiviacep.model
 
 data class Endereco(
+
     val bairro: String,
     val cep: String,
     val complemento: String,
@@ -11,4 +12,5 @@ data class Endereco(
     val logradouro: String,
     val siafi: String,
     val uf: String
+
 )
