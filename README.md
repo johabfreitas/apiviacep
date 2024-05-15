@@ -36,17 +36,17 @@ Instruções de instalação do projeto.
 	`File > New > Import Project...`
 
 3. Configure as dependências no arquivo `build.gradle.kts (Module:app)` :
-    `dependencies {
+    dependencies {
         implementation ("com.squareup.retrofit2:retrofit:2.9.0")
         implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    }`
+    }
 
 4. Habilite no arquivo `build.gradle.kts (Module:app)` o view binding :
-	`android {
+	android {
 		buildFeatures {
     		viewBinding = true
     	}
-	}` 
+	} 
 
 
 ## Uso
