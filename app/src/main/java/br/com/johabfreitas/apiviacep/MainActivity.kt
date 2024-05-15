@@ -48,6 +48,7 @@ class MainActivity : AppCompatActivity() {
 
         } catch (e: Exception) {
             e.printStackTrace()
+            Toast.makeText(this, "Erro ao buscar", Toast.LENGTH_LONG).show()
             Log.i("info_buscar", "Erro ao buscar")
         }
 
@@ -65,6 +66,8 @@ class MainActivity : AppCompatActivity() {
                 binding.edtGia.setText(endereco?.gia)
                 binding.edtDDD.setText(endereco?.ddd)
                 binding.edtSiafi.setText(endereco?.siafi)
+
+                Toast.makeText(this, "Busca realizada com sucesso", Toast.LENGTH_LONG).show()
 
             }
         }
