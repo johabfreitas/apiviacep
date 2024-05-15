@@ -74,4 +74,4 @@ Se quiser contribuir com o projeto, siga estas etapas:
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](https://opensource.org/licenses/MIT) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a [Licença Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
