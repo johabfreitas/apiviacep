@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
 
             CoroutineScope(Dispatchers.Main).launch {
                 recuperarEndereco()
+                binding.edtCEP.getText().clear()
             }
         }
     }
