@@ -2,6 +2,7 @@ package br.com.johabfreitas.apiviacep
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import br.com.johabfreitas.apiviacep.databinding.ActivityMainBinding
 import br.com.johabfreitas.apiviacep.model.Endereco
@@ -30,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnBuscar.setOnClickListener {
 
-            CoroutineScope(Dispatchers.IO).launch {
+            CoroutineScope(Dispatchers.Main).launch {
                 recuperarEndereco()
             }
         }
@@ -45,9 +46,9 @@ class MainActivity : AppCompatActivity() {
             val enderecoAPI = retrofit.create(EnderecoAPI::class.java)
             retorno = enderecoAPI.recuperarEndereco(cepDigitado)
 
-        } catch (e: IOException) {
+        } catch (e: Exception) {
             e.printStackTrace()
-            Toast.makeText(this, "Erro ao buscar", Toast.LENGTH_SHORT).show()
+            Log.i("info_buscar", "Erro ao buscar")
         }
 
         if (retorno != null) {
