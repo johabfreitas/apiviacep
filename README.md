@@ -3,7 +3,7 @@
 O aplicativo mostra como é feito um consumo de uma API utilizando o webservice gratuito da ViaCEP.
 
 <div style="display: flex;" align="center">
-  <img src="images/gif_1.gif" alt="Gif 1" style="width: 50%;">
+  <img src="images/gif_1.gif" alt="Gif 1" style="width: 65%;">
 </div>
 <p/>
 <div style="display: flex;" align="center">
