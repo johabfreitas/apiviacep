@@ -30,16 +30,19 @@ Bibliotecas:
 Instruções de instalação do projeto.
 
 1. Clone o repositório: 
+
 	`git clone https://github.com/johabfreitas/apiviacep.git`
 
 2. Importe o projeto para o Android Studio:
+
 	`File > New > Import Project...`
 
 3. Configure as dependências no arquivo `build.gradle.kts (Module:app)` :
-    dependencies {
+
+	dependencies {
         implementation ("com.squareup.retrofit2:retrofit:2.9.0")
         implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
-    }
+    	}
 
 4. Habilite no arquivo `build.gradle.kts (Module:app)` o view binding :
 	android {
