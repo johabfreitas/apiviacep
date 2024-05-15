@@ -28,11 +28,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.btnBuscar.setOnClickListener{
+        binding.btnBuscar.setOnClickListener {
 
-            CoroutineScope(Dispatchers.IO).launch{
+            CoroutineScope(Dispatchers.IO).launch {
                 recuperarEndereco()
-
             }
         }
     }
@@ -43,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         val cepDigitado = binding.edtCEP.text.toString()
 
         try {
-            val enderecoAPI =retrofit.create(EnderecoAPI::class.java)
+            val enderecoAPI = retrofit.create(EnderecoAPI::class.java)
             retorno = enderecoAPI.recuperarEndereco(cepDigitado)
 
         } catch (e: IOException) {
@@ -51,20 +50,20 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Erro ao buscar", Toast.LENGTH_SHORT).show()
         }
 
-        if(retorno != null){
-            if(retorno.isSuccessful){
+        if (retorno != null) {
+            if (retorno.isSuccessful) {
 
                 val endereco = retorno.body()
-                    //binding.edtCEP.setText(endereco?.cep)
-                    binding.edtEndereco.setText(endereco?.logradouro)
-                    binding.edtComplemento.setText(endereco?.complemento)
-                    binding.edtBairro.setText(endereco?.bairro)
-                    binding.edtLocalidade.setText(endereco?.localidade)
-                    binding.edtUF.setText(endereco?.uf)
-                    binding.edtIbge.setText(endereco?.ibge)
-                    binding.edtGia.setText(endereco?.gia)
-                    binding.edtDDD.setText(endereco?.ddd)
-                    binding.edtSiafi.setText(endereco?.siafi)
+
+                binding.edtEndereco.setText(endereco?.logradouro)
+                binding.edtComplemento.setText(endereco?.complemento)
+                binding.edtBairro.setText(endereco?.bairro)
+                binding.edtLocalidade.setText(endereco?.localidade)
+                binding.edtUF.setText(endereco?.uf)
+                binding.edtIbge.setText(endereco?.ibge)
+                binding.edtGia.setText(endereco?.gia)
+                binding.edtDDD.setText(endereco?.ddd)
+                binding.edtSiafi.setText(endereco?.siafi)
 
             }
         }

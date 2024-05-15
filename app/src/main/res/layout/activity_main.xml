@@ -13,7 +13,7 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:hint="Digite o CEP"
-        android:inputType="text"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -177,10 +177,11 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="16dp"
         android:text="GIA"
-        app:layout_constraintTop_toBottomOf="@+id/edtUF"
-        tools:layout_editor_absoluteX="206dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/edtUF" />
 
     <EditText
         android:id="@+id/edtGia"
@@ -222,10 +223,11 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
         android:layout_marginTop="16dp"
         android:text="SIAFI"
-        app:layout_constraintTop_toBottomOf="@+id/edtGia"
-        tools:layout_editor_absoluteX="206dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/edtGia" />
 
     <EditText
         android:id="@+id/edtSiafi"
