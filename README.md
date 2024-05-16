@@ -64,7 +64,7 @@ Instruções sobre como utilizar o projeto:
 
 ## Contribuição
 
-Este repositório foi criado para fins de estudo, com base nas aulas de mentoria do curso [Profissão Desenvolvedor Android](https://https://codans.com.br) do professor [Jamilton Damasceno](https://www.linkedin.com/in/jamiltondamasceno).
+Este repositório foi criado para fins de estudo, com base nas aulas de mentoria do curso [Profissão Desenvolvedor Android](https://codans.com.br) do professor [Jamilton Damasceno](https://www.linkedin.com/in/jamiltondamasceno).
 
 Se quiser contribuir com o projeto, siga estas etapas:
 
