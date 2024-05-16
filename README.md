@@ -74,6 +74,11 @@ Se quiser contribuir com o projeto, siga estas etapas:
 4. Faça push para a branch (`git push origin feature/MinhaFeature`)
 5. Crie um novo Pull Request
 
+## Autor
+
+Feito por Johab Freitas
+[![Linkedin Badge](https://img.shields.io/badge/-Johab-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/johabfreitas/)](https://www.linkedin.com/in/johabfreitas/)
+
 ## Licença
 
 Este projeto está licenciado sob a [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
