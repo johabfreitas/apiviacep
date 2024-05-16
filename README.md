@@ -77,6 +77,7 @@ Se quiser contribuir com o projeto, siga estas etapas:
 ## Autor
 
 Feito por Johab Freitas
+
 [![Linkedin Badge](https://img.shields.io/badge/-Johab-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/johabfreitas/)](https://www.linkedin.com/in/johabfreitas/)
 
 ## Licença
